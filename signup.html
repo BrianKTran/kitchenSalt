@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+
+        <meta charset="utf-8">
+        <title>Cutout Kitchen..</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <base target="_top">
+
+        <!-- CSS -->
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=PT+Sans:400,700'>
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Oleo+Script:400,700'>
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/jquery-ui.css" >
+
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    </head>
+  <body>
+
+  <div class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="logo span4">
+                        <h1><a href="">Cutout Kitchen <span style="color:#FF8243;" >.</span></a></h1>
+                    </div>
+
+                    <!--div class="links span8">
+                        <a class="home" href="http://hookipetech.com" rel="tooltip" data-placement="bottom" data-original-title="Home">Cutout Kitchen</a>
+                        <a class="blog" href="https://www.facebook.com/Cutout Kitchentech" rel="tooltip" data-placement="bottom" data-original-title="Facebook">Facebook</a>
+                    </div-->
+
+                </div>
+            </div>
+        </div>
+
+<div class="register-container container">
+            <div class="row">
+                <div class="register span12">
+                    <form id="hkpaform" action="" method="POST" target="_self" autocomplete="on">
+                        <h2><span style="color:#FF8243;padding-left:0px;"><strong>Cutout Kitchen Mobile App  </strong></span> &nbsp;&nbsp; Registry & Survey</h2>
+
+                        Cutout Kitchen is a web and mobile application designed for food lovers to experience new cultures. It gives users access to home-cooked meals by locating chefs in their area. Chefs have a chance to earn income by opening their homes to users. Donation mechanisms are embedded in the website as features to bring this experience to people and also create opportunities for low-income households to break out of the poverty cycle. 
+
+                        <label> <span style="color:#FF8243;"></span> <br /><br /> 
+ 
+                        Please give the best answer for each of the fields below. If you have any questions, please email hookipdev@gmail.com. Thank you! </label> <br /></span>
+                         <span style="color:#FF8243;float: left;"><strong>USER INFORMATION</strong></span><br>
+                        <label for="firstname">First Name<span style="color:#FF8243;">*</span></label>
+                        <input type="text" id="firstname" name="firstname" required placeholder="enter your first name...">
+                        <label for="lastname">Last Name<span style="color:#FF8243;">*</span></label>
+                        <input type="text" id="lastname" name="lastname" required placeholder="enter your last name...">
+                        <label for="email">Email<span style="color:#FF8243;">*</span></label>
+                        <input type="email" id="email" name="email" required placeholder="enter you email">
+                        <label for="phone">Phone Number<span style="color:#FF8243;">*</span></label>
+                        <input class="phone" name="phone" type="text" maxlength="14" placeholder="(###)###-####" />
+                        <label for="address">Address - if we can't build your child a car we'll connect you to our closest Cutout Kitchen! chapter <span style="color:#FF8243;">*</span></label>
+                        <input type="text" id="address1" name="address1" required  placeholder="line 1..">
+                        <input type="text" id="address2" name="address2" placeholder="line 2..">
+                        <select id="country" name ="country" required ></select>
+                        <select name ="state" id ="state" required></select>
+                        <input type="text" id="city" name="city"  required placeholder="city">
+                        <input type="number" id="zipcode" name="zipcode"  required placeholder="zipcode">
+                        <br> <br>
+                       <span style="color:#FF8243;float: left;"><strong>USER SURVEY</strong></span><br>
+                        <label for="gender"> Gender <span style="color:#FF8243;">*</span></label>
+                      
+                             <label class="control control--radio">Male
+                              <input type="radio" name="gender" required value="male" checked/>
+                              <div class="control__indicator"></div>
+                             </label>
+                             <label class="control control--radio">Female
+                              <input type="radio" name="gender" required value="female"/>
+                              <div class="control__indicator"></div>
+                        </label>
+                      
+                         
+                        <label for="childage">Birthdate <span style="color:#FF8243;">*</span></label>
+                        <div class="row">
+                        <div class="span2" style="padding-left:15px;">
+                            <input type="text" name="dob"id="datepicker" required>
+                        </div>
+                        </div>
+                        
+                        <label for="primary" >Primary Occupation <span style="color:#FF8243;">*</span> </label>
+                         <input type="text" id="primaryDiagnosis" name="primaryOccupation" required placeholder="Primary Occupation"><br>
+                        <br>
+                        
+                        <label for="secondary" > Culinary Experience (Years)   <span style="color:#FF8243;">*</span> </label>
+                       <input type="number" id="experience" name="experience"required placeholder="in years..."><br>
+                        <br>
+                        
+                    
+                        
+
+                        <label > Are you ServSafe Certified? <span style="color:#FF8243;" >*</span> </label>
+                      
+                            <label class="control control--radio">Yes
+                              <input type="radio" name="servSafe" required value="yes"/>
+                              <div class="control__indicator"></div>
+                             </label>
+                             <label class="control control--radio">No
+                              <input type="radio" name="servSafe" required value="no"/>
+                              <div class="control__indicator"></div>
+                             </label>
+                        
+                        <label > How often do you buy groceries? <span style="color:#FF8243;" >*</span> </label>
+                      
+                            <label class="control control--radio"> Everyday 
+                              <input type="radio" name="groceryShop" required value="Everyday "/>
+                              <div class="control__indicator"></div>
+                             </label>
+                             <label class="control control--radio"> 3 - 4 times a week
+                              <input type="radio" name="groceryShop" required value="3 - 4 times a week"/>
+                              <div class="control__indicator"></div>
+                             </label>
+                              <label class="control control--radio"> Once or twice a week
+                              <input type="radio" name="groceryShop" required value="Once or twice a week"/>
+                              <div class="control__indicator"></div>
+                             </label>
+                             <label class="control control--radio">Once or twice a month
+                              <input type="radio" name="groceryShop" required value="Once or twice a month"/>
+                              <div class="control__indicator"></div>
+                             </label>
+
+                    <label > How often do you cook at home? <span style="color:#FF8243;" >*</span> </label>
+                      
+                            <label class="control control--radio"> Everyday 
+                              <input type="radio" name="cookAtHome" required value="Everyday "/>
+                              <div class="control__indicator"></div>
+                             </label>
+                             <label class="control control--radio"> 3 - 4 times a week
+                              <input type="radio" name="cookAtHome" required value="3 - 4 times a week"/>
+                              <div class="control__indicator"></div>
+                             </label>
+                              <label class="control control--radio"> Once or twice a week
+                              <input type="radio" name="cookAtHome" required value="Once or twice a week"/>
+                              <div class="control__indicator"></div>
+                             </label>
+                             <label class="control control--radio">Once or twice a month
+                              <input type="radio" name="cookAtHome" required value="Once or twice a month"/>
+                              <div class="control__indicator"></div>
+                             </label>
+                    <label > Are you looking to make extra income? <span style="color:#FF8243;" >*</span> </label>
+                      
+                            <label class="control control--radio">Yes
+                              <input type="radio" name="extraIncome" required value="yes"/>
+                              <div class="control__indicator"></div>
+                             </label>
+                             <label class="control control--radio">No
+                              <input type="radio" name="extraIncome" required value="no"/>
+                              <div class="control__indicator"></div>
+                             </label> 
+
+                     <label > Which food do you prefer most? <span style="color:#FF8243;" >*</span> </label>
+                      
+                            <label class="control control--radio">A homemade meal
+                              <input type="radio" name="preferFood" required value="Homemade"/>
+                              <div class="control__indicator"></div>
+                             </label>
+                             <label class="control control--radio"> A restaurant meal
+                              <input type="radio" name="preferFood" required value="Restaurant"/>
+                              <div class="control__indicator"></div>
+                             </label>     
+
+                     <label > Are you open to trying new foods of cultural variety? <span style="color:#FF8243;" >*</span> </label>
+                      
+                            <label class="control control--radio">Yes
+                              <input type="radio" name="openNewFood" required value="yes"/>
+                              <div class="control__indicator"></div>
+                             </label>
+                             <label class="control control--radio">No
+                              <input type="radio" name="openNewFood" required value="no"/>
+                              <div class="control__indicator"></div>
+                             </label>  
+
+                    <label > Are you open to giving to charities? <span style="color:#FF8243;" >*</span> </label>
+                      
+                            <label class="control control--radio">Yes
+                              <input type="radio" name="charityGiv" required value="yes"/>
+                              <div class="control__indicator"></div>
+                             </label>
+                             <label class="control control--radio">No
+                              <input type="radio" name="charityGiv" required value="no"/>
+                              <div class="control__indicator"></div>
+                             </label>  
+                 
+
+                        <button style="background-color: #FF8243;"id="form-submit" type="submit">Submit</button>
+                    </form>
+                    
+                </div>
+            </div>
+
+
+           <!-- Javascript -->
+           <script src="assets/js/jquery-1.8.2.min.js"></script>
+           <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+           <script src="assets/js/jquery.backstretch.min.js"></script>
+           <script src="assets/js/scripts.js"></script>
+           <script src="assets/js/jquery-ui.js"></script>
+    <script type="text/javascript">
+
+   var $others = $('input[name="workShopEvent"]').not('#noWorkShop')
+   $('#noWorkShop').change(function () {
+       if (this.checked) {
+           $others.prop('checked', false)
+       }
+   });
+   $others.change(function () {
+       if (this.checked) {
+           $('#noWorkShop').prop('checked', false)
+       }
+   })
+
+
+   </script>
+     <script type="text/javascript">
+
+   var $others2 = $('input[name="workShopEvent2"]').not('#noWorkShop')
+   $('#noWorkShop').change(function () {
+       if (this.checked) {
+           $others2.prop('checked', false)
+       }
+   });
+   $others2.change(function () {
+       if (this.checked) {
+           $('#noWorkShop').prop('checked', false)
+       }
+   })
+
+
+   </script>
+           <script>
+               $( function() {
+               $("#backstretch").backstretch({});
+               $( "#datepicker" ).datepicker({
+               changeMonth: true,
+               changeYear: true
+               });
+               } );
+       </script>
+
+           <script src="assets/js/countries.js" type= "text/javascript"></script>
+           <script language="javascript">
+            populateCountries("country", "state"); // first parameter is id of country drop-down and second parameter is id of state drop-down
+           </script>
+           <script>
+           $('.phone')
+
+               .on('keypress', function(e) {
+               var key = e.charCode || e.keyCode || 0;
+               var phone = $(this);
+               if (phone.val().length === 0) {
+                   phone.val(phone.val() + '(');
+                   }
+               // Auto-format- do not expose the mask as the user begins to type
+               if (key !== 8 && key !== 9) {
+                   if (phone.val().length === 4) {
+                       phone.val(phone.val() + ')');
+                       }
+                   if (phone.val().length === 5) {
+                       phone.val(phone.val() + ' ');
+                       }
+                   if (phone.val().length === 9) {
+                       phone.val(phone.val() + '-');
+                       }
+                   if (phone.val().length >= 14) {
+                       phone.val(phone.val().slice(0, 13));
+                       }
+               }
+
+               // Allow numeric (and tab, backspace, delete) keys only
+               return (key == 8 ||
+               key == 9 ||
+               key == 46 ||
+               (key >= 48 && key <= 57) ||
+               (key >= 96 && key <= 105));
+               })
+
+               .on('focus', function() {
+               phone = $(this);
+
+               if (phone.val().length === 0) {
+               phone.val('(');
+               } else {
+               var val = phone.val();
+               phone.val('').val(val); // Ensure cursor remains at the end
+               }
+               })
+
+               .on('blur', function() {
+               $phone = $(this);
+
+               if ($phone.val() === '(') {
+                   $phone.val('');
+               }
+               });
+               </script>
+
+         <script>
+       $('#input-form').one('submit',function(){
+           var v1 = encodeURIComponent($('#firstname').val());
+           var v2 = encodeURIComponent($('#lastname').val());
+           var q1 = "entry.427740901";
+           var q2 = "entry.713370524";
+
+           var baseURL = 'https://docs.google.com/spreadsheets/d/1BbFyjjqVvr4xgelLuyALsIH1yZYngRTVQJqyVDf97co/edit#gid=0';
+           var submitRef = '&submit=-676819381632821464';
+           var submitURL = (baseURL + q1 + "=" + v1 + "&" + q2 + "=" + v2 + submitRef);
+           console.log(submitURL);
+           $(this)[0].action=submitURL;
+           $('#input-feedback').text('Thank You!');
+       });
+   </script>
+
+     <!-- Custom Theme JavaScript -->
+     <script src='google-sheet.js'></script>
+
+   </html>         
